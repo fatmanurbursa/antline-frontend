@@ -1,0 +1,67 @@
+.section {
+    position: relative;
+    height: 400px;
+    margin-bottom: 40px;
+    padding: 50px;
+    
+
+    opacity: 0;
+    transform: translateY(50px);
+    transition: all 0.9s ease-out;
+  }
+  
+
+.section.visible{
+    opacity:1;
+    transform: translateY(0);
+}
+
+
+  .section > div:first-child {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.3;
+    z-index: 1;
+  }
+  
+  .section .content {
+    position: relative;
+    z-index: 2;
+    padding: 100px 30px 0 30px;
+    text-align: center;
+    color: #022806;
+  }
+  .tarim {
+    background-image: url('img/drone tarım.jpg');
+    
+  }
+
+  .otomotiv{
+    background-image: url("img/otomotiv2.jpg");
+  }
+  
+  .medikal {
+    background-image: url('img/medikal.webp');
+  }
+
+  .savunma{
+    background-image: url("img/havacılık2.webp");
+  }
+
+  .endüstri{
+    background-image: url("img/endüstri.jpg");
+  }
+
+  .evesyaları{
+    background-image: url("img/elektronik\ ev\ eşyaları.jpg");
+  }
+
+  .iklimlendirme{
+    background-image: url("img/klima2.png");
+  }
+  

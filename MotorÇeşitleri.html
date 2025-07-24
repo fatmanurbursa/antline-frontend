@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Elektrik moturu üretimi web sitesi">
+    <title>Elektrik Motoru Teknolojileri</title>
+    <link rel="icon" type="image/png" href="favicon/favicon_io/karinca-removebg-preview.png">
+    <meta name="theme-color" content="#28572C">
+
+
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="motorcesitleri.css">
+
+
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+  />
+  
+
+  <style>
+  
+
+.motor-category section img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 16px 0;
+  border-radius: 6px; /* köşeler yumuşak, daha az rahatsız edici */
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); /* hafif gölge: yumuşak geçiş */
+}
+
+
+
+  </style>
+
+</head>
+<body class="dbody">
+    
+<!--- HEADER ÜST MENÜ-->
+<header>
+    
+    <div class="logo nav"> <img src="img/karinca-removebg-preview.png" height="70px"  alt="logojpeg isn't showing"></div>
+    
+    <nav>
+        
+
+
+        <ul>
+           <li > <a href="Anasayfa.html">Ana Sayfa</a></li> 
+
+           <li class="dropdown">
+            <a href="MotorÇeşitleri.html">Motor Çeşitleri <i class="fa fa-caret-down"></i></a>
+            <ul class="dropdown-content">
+              <li class="dropdown-sub" >
+                <a href="#ac">AC Motorlar <i class="fa fa-caret-right"></i></a>
+                <ul class="dropdown-submenu">
+                  <li class="dropdown-sub" >
+                    <a href="#senkron">Senkron Motorlar <i class="fa fa-caret-right"></i></a>
+                    <ul class="dropdown-submenu">
+                      <li><a href="#tekfaz">Tek Fazlı Senkron</a></li>
+                      <li><a href="#ucfaz">Üç Fazlı Senkron</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="#enduksiyon">Endüksiyon Motorlar</a></li>
+                </ul>
+              </li>
+          
+              <li class="dropdown-sub">
+                <a href="#dc">DC Motorlar <i class="fa fa-caret-right"></i></a>
+                <ul class="dropdown-submenu">
+                  <li><a href="#fircali">Fırçalı</a></li>
+                  <li><a href="#fircasiz">Fırçasız</a></li>
+                  <li><a href="#step">Step</a></li>
+                  <li><a href="#servo">Servo</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          
+          
+            <li> <a href="Endüstriler.html">Endüstriler</a></li>
+          <li> <a href="Haberler.html">Haberler</a></li>
+            
+             <li> <a href="Hakkımızda.html">Hakkımızda</a></li>
+           
+            
+        </ul>
+        
+        
+    </nav>
+    
+
+
+<!--- Dark mode -->
+<div class="kutu1"><button id="mode-toggle">🌙</button></div>
+
+<!---Dil seçimi-->
+<!--<select id="lang-select">
+    <option value="tr">Türkçe</option>
+    <option value="en">English</option>
+</select>-->
+
+</header>
+
+
+<!---Hero Bölümü-->
+<main>
+
+   
+    <section class="motor-category section" id="ac">
+        <h1>🔌 AC Motorlar</h1>
+        <div class="motor-type" >
+            <h1 id="senkron">Senkron Motorlar</h1>
+            <ul>
+                <li id="tekfaz"> <h1>Tek Fazlı Senkron Motor</h1>
+                <p>Lorem, ipsum dolor. Lorem ipsum dolor sit amet consectetur.</p></li>
+                <img src="img/tek fazlı senkron.png" alt="Senkron Motor" />
+                <li id="ucfaz"><h1>Üç Fazlı Senkron Motor</h1>
+                    <p>Lorem, ipsum dolor. Lorem ipsum dolor sit amet consectetur.</p></li>
+                <img src="img/üç fazlı senkron.jpeg" alt="Senkron Motor" />
+            </ul>
+            
+        </div>
+
+        <div class="motor-type" >
+            <h1 id="enduksiyon">Endüksiyon Motorlar</h1>
+            <p>Yaygın olarak sanayide kullanılır. Rotor, manyetik alan etkisiyle döner. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus, inventore magnam ad corrupti impedit ipsam odio aut cum quisquam. Exercitationem, quaerat ipsum temporibus perspiciatis nulla sapiente omnis assumenda ut hic.
+            Tempora nam quibusdam dignissimos veniam officia sed soluta, placeat ut quis obcaecati nulla facilis error dolorum quos alias totam pariatur maxime quam fugiat sapiente optio laudantium esse cumque. Sint, voluptatem.
+            Inventore, velit odio omnis est molestiae expedita. Necessitatibus sequi quis itaque rem incidunt molestias animi aliquam omnis dignissimos porro, laboriosam numquam sed deserunt distinctio a vel labore asperiores accusamus repellendus.</p>
+            <img src="img/indüksiyon .png" alt="Endüksiyon Motor" />
+        </div>
+    </section>
+
+    <section class="motor-category section" >
+        <h1 id="dc">🔋 DC Motorlar</h1>
+        <div class="motor-type" >
+            <h1 id="fircali">Fırçalı DC Motor</h1>
+            <p>Basit yapılı, düşük maliyetli ama bakım gerektirir. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi dignissimos ex soluta impedit architecto fugit laboriosam facilis fugiat, eaque quas incidunt, nesciunt inventore eos officia praesentium harum ipsum blanditiis quia?
+            Provident blanditiis nihil quibusdam alias fuga quis excepturi possimus voluptatum. Nulla possimus, illum perferendis architecto quo voluptatibus consectetur sapiente reprehenderit dolorem! Quis cumque blanditiis eaque praesentium non corrupti numquam cupiditate!
+            Officia qui fuga quo voluptatibus quam obcaecati nostrum dolor corrupti dignissimos porro dolore sed, consectetur eveniet dolores molestiae esse possimus unde alias quod voluptate adipisci, facere debitis distinctio. Nesciunt, fugiat?</p>
+            <img src="img/fırçalı.png" alt="Fırçalı Motor" />
+        </div>
+
+        <div class="motor-type" >
+            <h1 id="fircasiz">Fırçasız DC Motor (BLDC)</h1>
+            <p>Verimli ve uzun ömürlüdür, fırça kullanılmaz. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt officiis nam doloremque incidunt recusandae voluptas sapiente earum quos unde magnam natus quaerat dolor, a, libero accusamus sit optio alias dolore.
+            Voluptate maiores expedita est earum itaque at a! Dolorum dolores impedit veniam hic, quibusdam maiores veritatis voluptatibus at, voluptates iste dolore in voluptatem dignissimos perferendis omnis beatae? Perferendis, cupiditate fugiat.
+            Molestias non ipsa reiciendis placeat fugit cupiditate, expedita, dolor accusamus nulla iste error omnis necessitatibus reprehenderit? Labore cumque accusantium ut vero porro error, laboriosam soluta tempore minus totam delectus dolore.</p>
+            <img src="img/fırçasız.png" alt="Fırçasız Motor" />
+        </div>
+
+        <div class="motor-type" >
+            <h1 id="step">Step Motor</h1>
+            <p>Adım adım döner, hassas konumlandırma için uygundur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni sed mollitia delectus veniam beatae officiis magnam tempore doloribus! Ea nisi quis delectus magnam sint, cumque est! Culpa quis eaque dignissimos.
+            Fugit, voluptate dolorum vero maxime quae eum qui blanditiis quis? Quas necessitatibus consequatur sunt et. Inventore ipsam nisi delectus natus quia, sint porro, ratione provident repellendus reprehenderit similique fuga repudiandae?
+            Accusantium inventore et magni veniam ducimus similique aliquam, eius corporis consequuntur aspernatur earum sapiente blanditiis magnam. Laborum temporibus quo atque culpa ratione autem doloremque, omnis necessitatibus, ad, aperiam esse ea!</p>
+            <img src="img/step motor.png" alt="Step Motor" />
+        </div>
+
+        <div class="motor-type" >
+            <h1 id="servo">Servo Motor</h1>
+            <p>Geri besleme ile konum kontrolü sağlar, robotikte yaygındır. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam deleniti necessitatibus corrupti, cupiditate id voluptatum perspiciatis officia tempora quo nulla natus impedit, sed quae dolore odio reiciendis odit in eaque.
+            Facilis, fugiat quisquam. Reprehenderit, sapiente qui vel cupiditate voluptatem placeat inventore alias maxime pariatur esse adipisci in rerum! Veniam nam eveniet ratione perferendis a enim harum id pariatur nesciunt fugiat?
+            Amet quod modi accusantium consequuntur excepturi possimus sed fugiat minima, voluptates reprehenderit dolor dolorem fugit placeat dolorum nobis voluptas perferendis quos architecto repellendus maxime suscipit deleniti? Adipisci eligendi quis voluptatum? </p>
+            <img src="img/servo motor.png" alt="Servo Motor" />
+        </div>
+    </section>
+    
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+  </main>
+
+
+<br>
+
+<!---footer-->
+<footer id="footer" >
+
+<div class="foot-container">
+    <div class="foot">
+    <a href="https://www.youtube.com/watch?v=CWulQ1ZSE3c" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-youtube "></i></a>
+    <a href="https://www.youtube.com/watch?v=CWulQ1ZSE3c" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-x-twitter "></i></a>
+    <a href="https://www.youtube.com/watch?v=CWulQ1ZSE3c" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-instagram "></i></a>
+    <a href="https://www.youtube.com/watch?v=CWulQ1ZSE3c" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-facebook-f "></i></a>
+</div>
+
+<div class="foot">
+      <h4> AAAA AAAA AAA NO:4 ANKARA/ÇANKAYA</h4>
+    </div>
+</div>
+
+    
+    <p>&copy; 2025 MINERVA DYNAMICS. Tüm hakları saklıdır.</p>
+</footer>
+
+
+
+
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+      
+    

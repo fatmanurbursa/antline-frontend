@@ -1,0 +1,76 @@
+main h1{
+    text-align: center;
+}
+main p{
+    text-align: justify;
+    text-indent: 20px;
+}
+main h3{
+    text-align: justify;
+    text-indent: 20px;
+    
+}
+
+
+
+   @media (max-width: 768px) {
+      main {
+        margin-top: 135px;
+      }
+
+   }
+
+   @media (min-width: 768px) {
+    main {
+      margin-top: 110px;
+    }
+
+ }
+ .link-container {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  
+  .icon-links {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+  }
+  
+  .icon-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;  /* biraz daha büyük kutu */
+    height: 36px;
+    text-decoration: none;
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+    color: #0077b5;
+    border-radius: 6px;
+    background-color: #e7f3fb; /* hafif açık mavi arka plan */
+    box-shadow: 0 0 0 rgba(0, 119, 181, 0); /* başlangıçta gölge yok */
+  }
+  
+  .icon-link:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px rgba(0, 119, 181, 0.3);
+  }
+  
+  .icon-link i {
+    font-size: 31px;  /* büyüttük, img ile eşit boyut */
+    width: 28px;
+    height: 28px;
+    display: inline-block;
+    vertical-align: middle;
+   
+  }
+  
+  .icon-link img {
+    width: 28px;
+    height: 28px;
+    display: inline-block;
+    vertical-align: middle;
+    object-fit: contain;
+    border-radius: 4px; /* hafif yuvarlatma */
+  }
+  

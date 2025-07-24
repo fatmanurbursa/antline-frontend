@@ -1,0 +1,477 @@
+/* ==================== GENEL STİLLER ==================== */
+body {
+  margin: 0;
+  font-family: "Noto Serif", serif;
+  background-color: white;
+  color: #28572C;
+  transition: background-color 0.3s, color 0.3s;
+  padding: 0;
+  box-sizing: border-box;
+  padding-top: 50px;
+  padding-bottom: 150px;
+  line-height: 1.5;
+  text-align: center;
+  font-size: 13px;
+}
+
+/* ==================== NAVBAR ==================== */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #012805;
+  padding: 1rem 2rem;
+  color: #5a5b04;
+  font-size: 15px;
+  z-index: 999;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 80px;
+  padding: 0 20px;
+  box-shadow: 0 2px 8px (0,0,0,0.1);
+  flex-wrap: wrap;
+}
+
+/* ==================== RESPONSIVE NAVBAR ==================== */
+@media (max-width: 768px) {
+  nav ul {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.8rem;
+  }
+
+  header {
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 15px;
+  }
+
+  .logo {
+    margin-bottom: 10px;
+  }
+
+  .main-content {
+    padding-top: 130px;
+  }
+
+  main {
+    padding-top: 20px;
+  }
+
+  body {
+    padding-top: 80px;
+  }
+}
+
+/* ==================== NAVBAR LINKLERİ ==================== */
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: inherit;
+  position: relative;
+}
+
+nav a:hover {
+  color: #0077ff;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+/* ==================== DARK MODE ==================== */
+body.dark {
+  background-color: #121212;
+  color: #e0e0e0;
+}
+
+body.dark header {
+  background-color: #1e1e1e;
+}
+
+/* ==================== HERO BÖLÜMÜ ==================== */
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0px;
+  padding: 0;
+  text-align: justify;
+  text-indent: 20px;
+}
+
+.hero-text h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.hero-text p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+/* ==================== CTA BUTONLAR ==================== */
+.cta-btn {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  background-color: #28572C;
+  border: none;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 1s ease;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px (0,0,0,0.5);
+}
+
+.cta-btn:hover {
+  background-color: #5a5b04;
+  color: white;
+}
+
+.cta-btn-dark {
+  padding: 0.75rem 1.5rem;
+  border: none;
+  background-color: #022806;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border-radius: 6px;
+}
+
+.cta-btn-dark:hover {
+  background-color: #5a5b04;
+  color: white;
+}
+
+/* ==================== HERO GÖRSELLER ==================== */
+.hero-image video {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.hero-image img:hover {
+  transform: scale(1.05);
+}
+
+/* ==================== BUTON VE SELECT ==================== */
+#logo {
+  width: 5%;
+}
+
+#mode-toggle {
+  background-color: #023206;
+  cursor: pointer;
+  margin-right: 40px;
+  margin-top: 7px;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 6px;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+#lang-select {
+  margin-left: 13px;
+  margin-bottom: 10px;
+  padding: 5px;
+  background-color: #023206;
+  color: white;
+}
+
+/* ==================== NAVBAR HOVER ==================== */
+nav ul li :hover {
+  border-radius: 5px;
+  color: #656600;
+  box-shadow: #28572C;
+  font-size: 20px;
+  transition: 1s;
+  display: block;
+}
+
+/* ==================== SECTION A & B ==================== */
+#motor {
+  width: 10%;
+  height: 10%;
+}
+
+#section-a {
+  text-align: justify;
+  text-indent: 20px;
+  line-height: 30px;
+  margin-right: 4px;
+  margin-left: 4px;
+}
+
+#section-a h1 {
+  text-align: center;
+}
+
+#section-b img {
+  width: 100%;
+  height: auto;
+}
+
+#section-b ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0;
+  gap: 20px;
+}
+
+#section-b li {
+  width: 45%;
+  box-sizing: border-box;
+  background-color: #dfdcdc;
+  border-radius: 8px;
+  overflow: hidden;
+  padding: 10px;
+}
+
+#section-b li :hover,
+.col:hover {
+  box-shadow: 2px 2px 10px #022806;
+  transition: 1s;
+}
+
+.col img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.col-content {
+  margin-top: 10px;
+}
+
+.col-title {
+  font-size: 18px;
+  text-align: center;
+}
+
+/* ==================== FOOTER ==================== */
+footer {
+  background-color: #fcfcfc;
+  text-align: center;
+  padding: 1rem;
+  font-size: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+#footer .foot-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1000px;
+  flex-wrap: wrap;
+  margin: 10px;
+}
+
+#footer .foot {
+  width: 45%;
+}
+
+#footer .foot:first-child {
+  text-align: left;
+}
+
+#footer .foot:last-child {
+  text-align: right;
+}
+
+#footer a {
+  padding: 2px;
+  margin: 5px;
+}
+
+#footer a i {
+  color: #656600;
+  font-size: 20px;
+}
+
+#footer a i:hover {
+  cursor: pointer;
+}
+
+#footer p {
+  margin-top: 40px;
+  font-size: 14px;
+  color: #444;
+}
+
+body.dark footer {
+  background-color: #1e1e1e;
+}
+
+.darkfooter {
+  background-color: #022806;
+  color: #656600;
+}
+
+.ligthfooter {
+  background-color: white;
+  color: #022806;
+}
+
+#footer a i:hover {
+  cursor: pointer;
+  font-size: 25px;
+  transition: 1s;
+}
+
+.foot {
+  width: 50%;
+}
+
+/* ==================== ÜRETİM BÖLÜMÜ ==================== */
+.section-uretim {
+  text-align: justify;
+  text-indent: 20px;
+  line-height: 30px;
+  margin-right: 4px;
+  margin-left: 4px;
+}
+
+html, body {
+  height: 100%;
+}
+
+#content-wrapper {
+  min-height: calc(100vh - 150px);
+}
+
+/* ==================== POPUP TASARIMI ==================== */
+#popupOverlay {
+  display: none;
+  position: fixed;
+  z-index: 998;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.4);
+}
+
+#popupForm {
+  position: fixed;
+  top: -400px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 320px;
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0px 8px 16px rgba(0,0,0,0.3);
+  z-index: 999;
+  transition: top 0.6s ease;
+}
+
+#popupForm.show {
+  top: 80px;
+}
+
+#popupForm input,
+#popupForm button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+#popupForm h3 {
+  margin: 0;
+  margin-bottom: 10px;
+  font-size: 18px;
+  text-align: center;
+}
+
+#close {
+  background-color: #022806;
+  color: white;
+}
+
+#close:hover {
+  cursor: pointer;
+  background-color: #656600;
+}
+
+/* ==================== DROPDOWN MENÜ ==================== */
+.dropdown {
+  position: relative;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  min-width: 200px;
+  box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+  z-index: 1000;
+  padding: 0;
+  margin: 0;
+}
+
+.dropdown-content li {
+  list-style: none;
+  position: relative;
+}
+
+.dropdown-content li a {
+  color: #022806;
+  padding: 10px 16px;
+  display: block;
+  text-decoration: none;
+  font-size: 14px;
+  white-space: nowrap;
+}
+
+.dropdown-content li a:hover {
+  background-color: #f2f2f2;
+  color: #636600;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-submenu {
+  display: none;
+  position: absolute;
+  left: 100%;
+  top: 0;
+  background-color: #fff;
+  min-width: 200px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+  z-index: 1000;
+}
+
+.dropdown-sub:hover > .dropdown-submenu {
+  display: block;
+}
+
+/* ==================== SCROLL ==================== */
+html {
+  scroll-behavior: smooth;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <title>Admin Panel</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h2>İletişim Formu Kayıtları</h2>
+  <table border="1">
+    <thead>
+      <tr>
+        <th>Ad</th>
+        <th>Soyad</th>
+        <th>Email</th>
+        <th>Telefon</th>
+      </tr>
+    </thead>
+    <tbody id="iletisimTableBody"></tbody>
+  </table>
+
+  <script>
+    fetch("http://localhost:8080/api/iletisim/tum")
+      .then(res => res.json())
+      .then(veriler => {
+        const tbody = document.getElementById("iletisimTableBody");
+        veriler.forEach(kisi => {
+          const tr = document.createElement("tr");
+          tr.innerHTML = `
+            <td>${kisi.ad}</td>
+            <td>${kisi.soyad}</td>
+            <td>${kisi.email}</td>
+            <td>${kisi.telefon}</td>
+          `;
+          tbody.appendChild(tr);
+        });
+      });
+  </script>
+</body>
+</html>

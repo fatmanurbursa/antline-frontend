@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Elektrik moturu üretimi web sitesi">
+    <title>Elektrik Motoru Teknolojileri</title>
+    <link rel="icon" href="favicon/favicon_io/" type="image/x-icon">
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="Endustriler.css">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+  />
+  
+
+</head>
+<body class="dbody">
+    
+<!--- HEADER ÜST MENÜ-->
+<header>
+    
+    <div class="logo nav"> <img src="img/2.png" height="70px"  alt="logojpeg isn't showing"></div>
+    
+    <nav>
+        
+
+
+        <ul>
+           <li > <a href="Anasayfa.html">Ana Sayfa</a></li> 
+            <li> <a href="Motor Çeşitleri.html">Motor Çeşitleri</a></li>
+            <li> <a href="Endüstriler.html">Endüstriler</a></li>
+          <li> <a href="Haberler.html">Haberler</a></li>
+             <li> <a href="Kariyer.html">Kariyer</a></li>
+             <li> <a href="Hakkımızda.html">Hakkımızda</a></li>
+           
+            
+        </ul>
+        
+        
+    </nav>
+    
+
+
+<!--- Dark mode -->
+<div class="kutu1"><button id="mode-toggle">🌙</button></div>
+
+<!---Dil seçimi-->
+<!--<select id="lang-select">
+    <option value="tr">Türkçe</option>
+    <option value="en">English</option>
+</select>-->
+
+</header>
+
+
+<!---Hero Bölümü-->
+<main>
+
+    
+   <div class="tarim">
+    
+
+   </div>
+   <div class="boşluk"></div> 
+   <div class="content">
+    <h1>TARIM</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea illo blanditiis obcaecati ducimus dolores et sunt laudantium veniam voluptate numquam quo iste quos, debitis sit, amet porro rem, itaque soluta?
+    Quod necessitatibus harum cum vitae nam veritatis perspiciatis quisquam error animi recusandae, quasi facilis architecto impedit iure dolorum a, eveniet deleniti molestiae ex eum? Similique omnis minima quaerat eaque odio?
+    </p>
+   </div>
+   
+
+
+   <div class="medikal">
+    
+
+   </div>
+   <div class="boşluk"></div> 
+  
+   <div class="content">
+    <h1>MEDİKAL</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea illo blanditiis obcaecati ducimus dolores et sunt laudantium veniam voluptate numquam quo iste quos, debitis sit, amet porro rem, itaque soluta?
+    Quod necessitatibus harum cum vitae nam veritatis perspiciatis quisquam error animi recusandae, quasi facilis architecto impedit iure dolorum a, eveniet deleniti molestiae ex eum? Similique omnis minima quaerat eaque odio?
+    </p>
+   </div>
+   
+   
+   
+
+   <div class="otomotiv">
+    
+
+   </div>
+   <div class="boşluk"></div> 
+  
+   <div class="content">
+    <h1>OTOMOTİV</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea illo blanditiis obcaecati ducimus dolores et sunt laudantium veniam voluptate numquam quo iste quos, debitis sit, amet porro rem, itaque soluta?
+    Quod necessitatibus harum cum vitae nam veritatis perspiciatis quisquam error animi recusandae, quasi facilis architecto impedit iure dolorum a, eveniet deleniti molestiae ex eum? Similique omnis minima quaerat eaque odio?
+    </p>
+   </div>
+   
+
+
+   <div class="savunma-sanayi">
+    
+
+   </div>
+   <div class="boşluk"></div> 
+  
+   <div class="content">
+    <h1>HAVACILIK VE SAVUNMA SANAYİ</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea illo blanditiis obcaecati ducimus dolores et sunt laudantium veniam voluptate numquam quo iste quos, debitis sit, amet porro rem, itaque soluta?
+    Quod necessitatibus harum cum vitae nam veritatis perspiciatis quisquam error animi recusandae, quasi facilis architecto impedit iure dolorum a, eveniet deleniti molestiae ex eum? Similique omnis minima quaerat eaque odio?
+    </p>
+   </div>
+   
+
+   <div class="endüstriyel-üretim">
+    
+
+   </div>
+   <div class="boşluk"></div> 
+  
+   <div class="content">
+    <h1>ENDÜSTRİYEL VE ÜRETİM</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea illo blanditiis obcaecati ducimus dolores et sunt laudantium veniam voluptate numquam quo iste quos, debitis sit, amet porro rem, itaque soluta?
+    Quod necessitatibus harum cum vitae nam veritatis perspiciatis quisquam error animi recusandae, quasi facilis architecto impedit iure dolorum a, eveniet deleniti molestiae ex eum? Similique omnis minima quaerat eaque odio?
+    </p>
+   </div>
+   
+
+   <div class="iklimlendirme">
+    
+
+   </div>
+   <div class="boşluk"></div> 
+   <div class="content">
+    <h1>ISITMA,HAVALANDIRMA VE İKLİMLENDİRME</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea illo blanditiis obcaecati ducimus dolores et sunt laudantium veniam voluptate numquam quo iste quos, debitis sit, amet porro rem, itaque soluta?
+    Quod necessitatibus harum cum vitae nam veritatis perspiciatis quisquam error animi recusandae, quasi facilis architecto impedit iure dolorum a, eveniet deleniti molestiae ex eum? Similique omnis minima quaerat eaque odio?
+    </p>
+   </div>
+   
+
+
+
+
+
+
+
+
+
+   <div class="ev">
+    
+
+   </div>
+   <div class="boşluk"></div> 
+  
+   <div class="content">
+    <h1>ELEKTRONİK EV EŞYALARI</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea illo blanditiis obcaecati ducimus dolores et sunt laudantium veniam voluptate numquam quo iste quos, debitis sit, amet porro rem, itaque soluta?
+    Quod necessitatibus harum cum vitae nam veritatis perspiciatis quisquam error animi recusandae, quasi facilis architecto impedit iure dolorum a, eveniet deleniti molestiae ex eum? Similique omnis minima quaerat eaque odio?
+    </p>
+   </div>
+
+
+  </main>
+
+
+<br>
+
+<!---footer-->
+<footer id="footer" >
+
+<div class="foot-container">
+    <div class="foot">
+    <a href="https://www.youtube.com/watch?v=CWulQ1ZSE3c" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-youtube "></i></a>
+    <a href="https://www.youtube.com/watch?v=CWulQ1ZSE3c" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-x-twitter "></i></a>
+    <a href="https://www.youtube.com/watch?v=CWulQ1ZSE3c" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-instagram "></i></a>
+    <a href="https://www.youtube.com/watch?v=CWulQ1ZSE3c" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-facebook-f "></i></a>
+</div>
+
+<div class="foot">
+      <h4> AAAA AAAA AAA NO:4 ANKARA/ÇANKAYA</h4>
+    </div>
+</div>
+
+    
+    <p>&copy; 2025 MINERVA DYNAMICS. Tüm hakları saklıdır.</p>
+</footer>
+
+
+
+
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
+
+
+css:
+
+
+
+.tarim{
+    background-image: url(img/drone\ tarım.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 400px; /* ← Bu satır şart */
+    width: 100%;
+    opacity: 0.5;
+    position: absolute;
+    
+    z-index: -1;
+    
+    
+
+    
+}
+
+.content h1{
+    padding: 150px;
+    padding-bottom: 0;
+}
+
+
+
+.otomotiv{
+    background-image: url(img/otomotiv2.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 400px; /* ← Bu satır şart */
+    width: 100%;
+    opacity: 0.3;
+    position: absolute;
+    
+    z-index: -1;
+    padding-top: 300px;
+}
+
+.ev{
+    background-image: url(img/elektronik\ ev\ eşyaları.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 500px; /* ← Bu satır şart */
+    width: 100%;
+    opacity: 0.3;
+    position: absolute;
+   
+    z-index: -1;
+    padding-top: 300px;
+     
+}
+.medikal{
+    background-image: url(img/medikal.webp);
+    background-size: cover;
+    background-position: center;
+    height: 400px; /* ← Bu satır şart */
+    width: 100%;
+    opacity: 0.3;
+    position: absolute;
+    
+    z-index: -1;
+    padding-top: 00px;
+}
+
+.savunma-sanayi{  background-image: url(img/havacılık2.webp);
+    background-size: cover;
+    background-position: center;
+    height: 400px; /* ← Bu satır şart */
+    width: 100%;
+    opacity: 0.5;
+    position: absolute;
+    
+    z-index: -1;}
+
+    .endüstriyel-üretim{  background-image: url(img/endüstri.jpg);
+        background-size: cover;
+        background-position: center;
+        height: 400px; /* ← Bu satır şart */
+        width: 100%;
+        opacity: 0.5;
+        position: absolute;
+    
+        z-index: -1;}
+
+        .iklimlendirme{  background-image: url(img/havacılık2.webp);
+            background-size: cover;
+            background-position: center;
+            height: 400px; /* ← Bu satır şart */
+            width: 100%;
+            opacity: 0.5;
+            position: absolute;
+            
+            z-index: -1;}
